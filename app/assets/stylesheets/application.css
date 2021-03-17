@@ -1,0 +1,120 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.flash {
+  color: green;
+}
+
+h1 {
+  margin-block: 0.67em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+  margin: 33px;
+}
+
+table {
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: inherit;
+    border-spacing: inherit;
+    border-color: grey;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.error_explanation {
+  width: 350px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+ul {
+  line-height: 18px;
+  margin: 33px;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+
+label {
+  display: block;
+  cursor: default;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+a:webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field h4 {
+  margin-bottom: 0;
+}
+
+.actions {
+  margin-bottom: 10px
+}
